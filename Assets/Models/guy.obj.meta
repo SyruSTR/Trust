@@ -1,0 +1,1427 @@
+fileFormatVersion: 2
+guid: dfd7a06094bc16b4fa585979246000d0
+timeCreated: 1520440540
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box003
+    100002: //RootNode
+    100004: hair_003
+    100006: hair_004
+    100008: hair_005
+    100010: hair_006
+    100012: hair_007
+    100014: hair_008
+    100016: hair_009
+    100018: hair_010
+    100020: hair_011
+    100022: hair_012
+    100024: hair_013
+    100026: hair_014
+    100028: hair_015
+    100030: hair_016
+    100032: hair_017
+    100034: hair_018
+    100036: hair_019
+    100038: hair_020
+    100040: hair_021
+    100042: hair_022
+    100044: hair_023
+    100046: hair_024
+    100048: hair_025
+    100050: hair_026
+    100052: hair_027
+    100054: hair_028
+    100056: hair_029
+    100058: hair_030
+    100060: hair_031
+    100062: hair_032
+    100064: hair_033
+    100066: hair_034
+    100068: hair_035
+    100070: hair_036
+    100072: hair_037
+    100074: hair_038
+    100076: hair_039
+    100078: hair_040
+    100080: hair_041
+    100082: hair_042
+    100084: hair_043
+    100086: hair_044
+    100088: hair_045
+    100090: hair_046
+    100092: hair_047
+    100094: hair_048
+    100096: hair_049
+    100098: hair_050
+    100100: hair_051
+    100102: hair_052
+    100104: hair_053
+    100106: hair_054
+    100108: hair_055
+    100110: hair_056
+    100112: hair_057
+    100114: hair_058
+    100116: hair_059
+    100118: hair_060
+    100120: hair_061
+    100122: hair_062
+    100124: hair_063
+    100126: hair_064
+    100128: hair_067
+    100130: hair_068
+    100132: hair_069
+    100134: hair_070
+    100136: hair_071
+    100138: hair_072
+    100140: hair_073
+    100142: hair_074
+    100144: hair_075
+    100146: hair_076
+    100148: hair_077
+    100150: hair_078
+    100152: hair_079
+    100154: hair_080
+    100156: hair_081
+    100158: hair_082
+    100160: hair_083
+    100162: hair_084
+    100164: hair_085
+    100166: hair_086
+    100168: hair_087
+    100170: hair_088
+    100172: hair_089
+    100174: hair_090
+    100176: hair_091
+    100178: hair_092
+    100180: hair_093
+    100182: hair_094
+    100184: hair_095
+    100186: hair_096
+    100188: hair_097
+    100190: hair_098
+    100192: hair_099
+    100194: hair_100
+    100196: hair_101
+    100198: hair_102
+    100200: hair_103
+    100202: hair_104
+    100204: hair_105
+    100206: hair_106
+    100208: hair_107
+    100210: hair_108
+    100212: hair_109
+    100214: hair_110
+    100216: hair_111
+    100218: hair_112
+    100220: hair_113
+    100222: hair_114
+    100224: hair_115
+    100226: hair_116
+    100228: hair_117
+    100230: hair_118
+    100232: hair_119
+    100234: hair_120
+    100236: hair_121
+    100238: hair_122
+    100240: hair_123
+    100242: hair_124
+    100244: hair_125
+    100246: hair_126
+    100248: hair_127
+    100250: hair_128
+    100252: hair_129
+    100254: hair_130
+    100256: hair_131
+    100258: hair_132
+    100260: hair_133
+    100262: hair_134
+    100264: hair_2
+    100266: Sphere001
+    100268: Sphere002
+    400000: Box003
+    400002: //RootNode
+    400004: hair_003
+    400006: hair_004
+    400008: hair_005
+    400010: hair_006
+    400012: hair_007
+    400014: hair_008
+    400016: hair_009
+    400018: hair_010
+    400020: hair_011
+    400022: hair_012
+    400024: hair_013
+    400026: hair_014
+    400028: hair_015
+    400030: hair_016
+    400032: hair_017
+    400034: hair_018
+    400036: hair_019
+    400038: hair_020
+    400040: hair_021
+    400042: hair_022
+    400044: hair_023
+    400046: hair_024
+    400048: hair_025
+    400050: hair_026
+    400052: hair_027
+    400054: hair_028
+    400056: hair_029
+    400058: hair_030
+    400060: hair_031
+    400062: hair_032
+    400064: hair_033
+    400066: hair_034
+    400068: hair_035
+    400070: hair_036
+    400072: hair_037
+    400074: hair_038
+    400076: hair_039
+    400078: hair_040
+    400080: hair_041
+    400082: hair_042
+    400084: hair_043
+    400086: hair_044
+    400088: hair_045
+    400090: hair_046
+    400092: hair_047
+    400094: hair_048
+    400096: hair_049
+    400098: hair_050
+    400100: hair_051
+    400102: hair_052
+    400104: hair_053
+    400106: hair_054
+    400108: hair_055
+    400110: hair_056
+    400112: hair_057
+    400114: hair_058
+    400116: hair_059
+    400118: hair_060
+    400120: hair_061
+    400122: hair_062
+    400124: hair_063
+    400126: hair_064
+    400128: hair_067
+    400130: hair_068
+    400132: hair_069
+    400134: hair_070
+    400136: hair_071
+    400138: hair_072
+    400140: hair_073
+    400142: hair_074
+    400144: hair_075
+    400146: hair_076
+    400148: hair_077
+    400150: hair_078
+    400152: hair_079
+    400154: hair_080
+    400156: hair_081
+    400158: hair_082
+    400160: hair_083
+    400162: hair_084
+    400164: hair_085
+    400166: hair_086
+    400168: hair_087
+    400170: hair_088
+    400172: hair_089
+    400174: hair_090
+    400176: hair_091
+    400178: hair_092
+    400180: hair_093
+    400182: hair_094
+    400184: hair_095
+    400186: hair_096
+    400188: hair_097
+    400190: hair_098
+    400192: hair_099
+    400194: hair_100
+    400196: hair_101
+    400198: hair_102
+    400200: hair_103
+    400202: hair_104
+    400204: hair_105
+    400206: hair_106
+    400208: hair_107
+    400210: hair_108
+    400212: hair_109
+    400214: hair_110
+    400216: hair_111
+    400218: hair_112
+    400220: hair_113
+    400222: hair_114
+    400224: hair_115
+    400226: hair_116
+    400228: hair_117
+    400230: hair_118
+    400232: hair_119
+    400234: hair_120
+    400236: hair_121
+    400238: hair_122
+    400240: hair_123
+    400242: hair_124
+    400244: hair_125
+    400246: hair_126
+    400248: hair_127
+    400250: hair_128
+    400252: hair_129
+    400254: hair_130
+    400256: hair_131
+    400258: hair_132
+    400260: hair_133
+    400262: hair_134
+    400264: hair_2
+    400266: Sphere001
+    400268: Sphere002
+    2300000: Box003
+    2300002: hair_003
+    2300004: hair_004
+    2300006: hair_005
+    2300008: hair_006
+    2300010: hair_007
+    2300012: hair_008
+    2300014: hair_009
+    2300016: hair_010
+    2300018: hair_011
+    2300020: hair_012
+    2300022: hair_013
+    2300024: hair_014
+    2300026: hair_015
+    2300028: hair_016
+    2300030: hair_017
+    2300032: hair_018
+    2300034: hair_019
+    2300036: hair_020
+    2300038: hair_021
+    2300040: hair_022
+    2300042: hair_023
+    2300044: hair_024
+    2300046: hair_025
+    2300048: hair_026
+    2300050: hair_027
+    2300052: hair_028
+    2300054: hair_029
+    2300056: hair_030
+    2300058: hair_031
+    2300060: hair_032
+    2300062: hair_033
+    2300064: hair_034
+    2300066: hair_035
+    2300068: hair_036
+    2300070: hair_037
+    2300072: hair_038
+    2300074: hair_039
+    2300076: hair_040
+    2300078: hair_041
+    2300080: hair_042
+    2300082: hair_043
+    2300084: hair_044
+    2300086: hair_045
+    2300088: hair_046
+    2300090: hair_047
+    2300092: hair_048
+    2300094: hair_049
+    2300096: hair_050
+    2300098: hair_051
+    2300100: hair_052
+    2300102: hair_053
+    2300104: hair_054
+    2300106: hair_055
+    2300108: hair_056
+    2300110: hair_057
+    2300112: hair_058
+    2300114: hair_059
+    2300116: hair_060
+    2300118: hair_061
+    2300120: hair_062
+    2300122: hair_063
+    2300124: hair_064
+    2300126: hair_067
+    2300128: hair_068
+    2300130: hair_069
+    2300132: hair_070
+    2300134: hair_071
+    2300136: hair_072
+    2300138: hair_073
+    2300140: hair_074
+    2300142: hair_075
+    2300144: hair_076
+    2300146: hair_077
+    2300148: hair_078
+    2300150: hair_079
+    2300152: hair_080
+    2300154: hair_081
+    2300156: hair_082
+    2300158: hair_083
+    2300160: hair_084
+    2300162: hair_085
+    2300164: hair_086
+    2300166: hair_087
+    2300168: hair_088
+    2300170: hair_089
+    2300172: hair_090
+    2300174: hair_091
+    2300176: hair_092
+    2300178: hair_093
+    2300180: hair_094
+    2300182: hair_095
+    2300184: hair_096
+    2300186: hair_097
+    2300188: hair_098
+    2300190: hair_099
+    2300192: hair_100
+    2300194: hair_101
+    2300196: hair_102
+    2300198: hair_103
+    2300200: hair_104
+    2300202: hair_105
+    2300204: hair_106
+    2300206: hair_107
+    2300208: hair_108
+    2300210: hair_109
+    2300212: hair_110
+    2300214: hair_111
+    2300216: hair_112
+    2300218: hair_113
+    2300220: hair_114
+    2300222: hair_115
+    2300224: hair_116
+    2300226: hair_117
+    2300228: hair_118
+    2300230: hair_119
+    2300232: hair_120
+    2300234: hair_121
+    2300236: hair_122
+    2300238: hair_123
+    2300240: hair_124
+    2300242: hair_125
+    2300244: hair_126
+    2300246: hair_127
+    2300248: hair_128
+    2300250: hair_129
+    2300252: hair_130
+    2300254: hair_131
+    2300256: hair_132
+    2300258: hair_133
+    2300260: hair_134
+    2300262: hair_2
+    2300264: Sphere001
+    2300266: Sphere002
+    3300000: Box003
+    3300002: hair_003
+    3300004: hair_004
+    3300006: hair_005
+    3300008: hair_006
+    3300010: hair_007
+    3300012: hair_008
+    3300014: hair_009
+    3300016: hair_010
+    3300018: hair_011
+    3300020: hair_012
+    3300022: hair_013
+    3300024: hair_014
+    3300026: hair_015
+    3300028: hair_016
+    3300030: hair_017
+    3300032: hair_018
+    3300034: hair_019
+    3300036: hair_020
+    3300038: hair_021
+    3300040: hair_022
+    3300042: hair_023
+    3300044: hair_024
+    3300046: hair_025
+    3300048: hair_026
+    3300050: hair_027
+    3300052: hair_028
+    3300054: hair_029
+    3300056: hair_030
+    3300058: hair_031
+    3300060: hair_032
+    3300062: hair_033
+    3300064: hair_034
+    3300066: hair_035
+    3300068: hair_036
+    3300070: hair_037
+    3300072: hair_038
+    3300074: hair_039
+    3300076: hair_040
+    3300078: hair_041
+    3300080: hair_042
+    3300082: hair_043
+    3300084: hair_044
+    3300086: hair_045
+    3300088: hair_046
+    3300090: hair_047
+    3300092: hair_048
+    3300094: hair_049
+    3300096: hair_050
+    3300098: hair_051
+    3300100: hair_052
+    3300102: hair_053
+    3300104: hair_054
+    3300106: hair_055
+    3300108: hair_056
+    3300110: hair_057
+    3300112: hair_058
+    3300114: hair_059
+    3300116: hair_060
+    3300118: hair_061
+    3300120: hair_062
+    3300122: hair_063
+    3300124: hair_064
+    3300126: hair_067
+    3300128: hair_068
+    3300130: hair_069
+    3300132: hair_070
+    3300134: hair_071
+    3300136: hair_072
+    3300138: hair_073
+    3300140: hair_074
+    3300142: hair_075
+    3300144: hair_076
+    3300146: hair_077
+    3300148: hair_078
+    3300150: hair_079
+    3300152: hair_080
+    3300154: hair_081
+    3300156: hair_082
+    3300158: hair_083
+    3300160: hair_084
+    3300162: hair_085
+    3300164: hair_086
+    3300166: hair_087
+    3300168: hair_088
+    3300170: hair_089
+    3300172: hair_090
+    3300174: hair_091
+    3300176: hair_092
+    3300178: hair_093
+    3300180: hair_094
+    3300182: hair_095
+    3300184: hair_096
+    3300186: hair_097
+    3300188: hair_098
+    3300190: hair_099
+    3300192: hair_100
+    3300194: hair_101
+    3300196: hair_102
+    3300198: hair_103
+    3300200: hair_104
+    3300202: hair_105
+    3300204: hair_106
+    3300206: hair_107
+    3300208: hair_108
+    3300210: hair_109
+    3300212: hair_110
+    3300214: hair_111
+    3300216: hair_112
+    3300218: hair_113
+    3300220: hair_114
+    3300222: hair_115
+    3300224: hair_116
+    3300226: hair_117
+    3300228: hair_118
+    3300230: hair_119
+    3300232: hair_120
+    3300234: hair_121
+    3300236: hair_122
+    3300238: hair_123
+    3300240: hair_124
+    3300242: hair_125
+    3300244: hair_126
+    3300246: hair_127
+    3300248: hair_128
+    3300250: hair_129
+    3300252: hair_130
+    3300254: hair_131
+    3300256: hair_132
+    3300258: hair_133
+    3300260: hair_134
+    3300262: hair_2
+    3300264: Sphere001
+    3300266: Sphere002
+    4300000: Box003
+    4300002: hair_003
+    4300004: hair_004
+    4300006: hair_005
+    4300008: hair_006
+    4300010: hair_007
+    4300012: hair_008
+    4300014: hair_009
+    4300016: hair_010
+    4300018: hair_011
+    4300020: hair_012
+    4300022: hair_013
+    4300024: hair_014
+    4300026: hair_015
+    4300028: hair_016
+    4300030: hair_017
+    4300032: hair_018
+    4300034: hair_019
+    4300036: hair_020
+    4300038: hair_021
+    4300040: hair_022
+    4300042: hair_023
+    4300044: hair_024
+    4300046: hair_025
+    4300048: hair_026
+    4300050: hair_027
+    4300052: hair_028
+    4300054: hair_029
+    4300056: hair_030
+    4300058: hair_031
+    4300060: hair_032
+    4300062: hair_033
+    4300064: hair_034
+    4300066: hair_035
+    4300068: hair_036
+    4300070: hair_037
+    4300072: hair_038
+    4300074: hair_039
+    4300076: hair_040
+    4300078: hair_041
+    4300080: hair_042
+    4300082: hair_043
+    4300084: hair_044
+    4300086: hair_045
+    4300088: hair_046
+    4300090: hair_047
+    4300092: hair_048
+    4300094: hair_049
+    4300096: hair_050
+    4300098: hair_051
+    4300100: hair_052
+    4300102: hair_053
+    4300104: hair_054
+    4300106: hair_055
+    4300108: hair_056
+    4300110: hair_057
+    4300112: hair_058
+    4300114: hair_059
+    4300116: hair_060
+    4300118: hair_061
+    4300120: hair_062
+    4300122: hair_063
+    4300124: hair_064
+    4300126: hair_067
+    4300128: hair_068
+    4300130: hair_069
+    4300132: hair_070
+    4300134: hair_071
+    4300136: hair_072
+    4300138: hair_073
+    4300140: hair_074
+    4300142: hair_075
+    4300144: hair_076
+    4300146: hair_077
+    4300148: hair_078
+    4300150: hair_079
+    4300152: hair_080
+    4300154: hair_081
+    4300156: hair_082
+    4300158: hair_083
+    4300160: hair_084
+    4300162: hair_085
+    4300164: hair_086
+    4300166: hair_087
+    4300168: hair_088
+    4300170: hair_089
+    4300172: hair_090
+    4300174: hair_091
+    4300176: hair_092
+    4300178: hair_093
+    4300180: hair_094
+    4300182: hair_095
+    4300184: hair_096
+    4300186: hair_097
+    4300188: hair_098
+    4300190: hair_099
+    4300192: hair_100
+    4300194: hair_101
+    4300196: hair_102
+    4300198: hair_103
+    4300200: hair_104
+    4300202: hair_105
+    4300204: hair_106
+    4300206: hair_107
+    4300208: hair_108
+    4300210: hair_109
+    4300212: hair_110
+    4300214: hair_111
+    4300216: hair_112
+    4300218: hair_113
+    4300220: hair_114
+    4300222: hair_115
+    4300224: hair_116
+    4300226: hair_117
+    4300228: hair_118
+    4300230: hair_119
+    4300232: hair_120
+    4300234: hair_121
+    4300236: hair_122
+    4300238: hair_123
+    4300240: hair_124
+    4300242: hair_125
+    4300244: hair_126
+    4300246: hair_127
+    4300248: hair_128
+    4300250: hair_129
+    4300252: hair_130
+    4300254: hair_131
+    4300256: hair_132
+    4300258: hair_133
+    4300260: hair_134
+    4300262: hair_2
+    4300264: Sphere001
+    4300266: Sphere002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box003Mat
+    second: {fileID: 2100000, guid: 0d2c2a253bd1c494284f4167b0e4ce6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere001Mat
+    second: {fileID: 2100000, guid: f7b22a585d88ca0428998de21742377e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphere002Mat
+    second: {fileID: 2100000, guid: 04e64a08b3617184a98eeb2cc715a852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_003Mat
+    second: {fileID: 2100000, guid: 24c498bd4f257444599d63617e687d50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_004Mat
+    second: {fileID: 2100000, guid: 23a88bd65df512c42a2d0dc06dd063d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_005Mat
+    second: {fileID: 2100000, guid: f5719c81291bf33458b8e28ba0c2bbf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_006Mat
+    second: {fileID: 2100000, guid: dfcf24c87620bea438dfb7e094d5b8cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_007Mat
+    second: {fileID: 2100000, guid: 67b7715e1c1e131468ee3811e4f9e39e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_008Mat
+    second: {fileID: 2100000, guid: 0b6c27f0228493a4dadd1df54c91c9bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_009Mat
+    second: {fileID: 2100000, guid: fce743d65fa816c46bede8f1450c5e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_010Mat
+    second: {fileID: 2100000, guid: db292a17a52dca247a812aaa2907055d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_011Mat
+    second: {fileID: 2100000, guid: e72b607e80bb8fb4c89578f1edd8efc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_012Mat
+    second: {fileID: 2100000, guid: 14bde7812c4d2a14fb9035ea85387498, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_013Mat
+    second: {fileID: 2100000, guid: 16e8bf53a3fdb42439880c8c36ddf0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_014Mat
+    second: {fileID: 2100000, guid: 5c12683305d96f24b8e513d2524a97e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_015Mat
+    second: {fileID: 2100000, guid: 132be2a5d99eef3488d532a5946fdc66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_016Mat
+    second: {fileID: 2100000, guid: 935bbabd137646a41aabebac8195a5fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_017Mat
+    second: {fileID: 2100000, guid: 199ec66724d542542a0cb0742b8a4dde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_018Mat
+    second: {fileID: 2100000, guid: f834cb2ff07ae674f913f0b1c135644b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_019Mat
+    second: {fileID: 2100000, guid: e421911c4fbc437409646bd448cf5c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_020Mat
+    second: {fileID: 2100000, guid: 8d72936ed296b024eb585a7f9b104229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_021Mat
+    second: {fileID: 2100000, guid: 9449aee61b726a845b0b0b625b690ecd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_022Mat
+    second: {fileID: 2100000, guid: 07bf78ccea1b1f44f85d8f32ea1e0f66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_023Mat
+    second: {fileID: 2100000, guid: 66daf6cbd90c800409cb024388c80291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_024Mat
+    second: {fileID: 2100000, guid: ed4b8736a5c64b245b1857717cadcc0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_025Mat
+    second: {fileID: 2100000, guid: c0ec814195af78a4ca8a2ed264f40b09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_026Mat
+    second: {fileID: 2100000, guid: 1b3b2ba95e00faf4ab9912582d513955, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_027Mat
+    second: {fileID: 2100000, guid: c18ef67f124a16c4498f68e0698ef38b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_028Mat
+    second: {fileID: 2100000, guid: e9d2726c45dafb846a4325a1dcb1c820, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_029Mat
+    second: {fileID: 2100000, guid: 9cdb34fd214838245a6f4c8b25939496, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_030Mat
+    second: {fileID: 2100000, guid: 21625ac669d241f47a61922708617c6c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_031Mat
+    second: {fileID: 2100000, guid: 9793dc3d21eaddf408c1041d2bf5ba74, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_032Mat
+    second: {fileID: 2100000, guid: 4dafe298747c7b94c839747a5de976fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_033Mat
+    second: {fileID: 2100000, guid: 8878df10133f2f54d8f5aee83533cb31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_034Mat
+    second: {fileID: 2100000, guid: fa6042a7f55517b4baed814d99815588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_035Mat
+    second: {fileID: 2100000, guid: 64a1c6b8181f48c4a8284c2d4ffb52c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_036Mat
+    second: {fileID: 2100000, guid: d893287d0ed167a4fbe15bc16d8e44f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_037Mat
+    second: {fileID: 2100000, guid: d204339361f71a24da8a6dbdfc692acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_038Mat
+    second: {fileID: 2100000, guid: 8f08b5651956927478e85d1ff54673f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_039Mat
+    second: {fileID: 2100000, guid: fff7862293a00aa429ec8f322e9b4dd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_040Mat
+    second: {fileID: 2100000, guid: 96d9cff19d409504dbe4ccb3a4db738e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_041Mat
+    second: {fileID: 2100000, guid: ad02ec2489c420a40a32ee226ad16ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_042Mat
+    second: {fileID: 2100000, guid: 064c7d7814babfa459d7cd42f6ed58cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_043Mat
+    second: {fileID: 2100000, guid: 8c3231598f7e0814284769481beb44b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_044Mat
+    second: {fileID: 2100000, guid: e3da2cfc4f2c64c4884de6e75b5e5325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_045Mat
+    second: {fileID: 2100000, guid: d88a97b25f5b51e4eb38842ccc588b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_046Mat
+    second: {fileID: 2100000, guid: 74bd3452f2001574b9a5e5dd2041f532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_047Mat
+    second: {fileID: 2100000, guid: ee0fd427550a26a4b91acc30597eb453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_048Mat
+    second: {fileID: 2100000, guid: 2f26186ea83e19d44b1354c1fd92cec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_049Mat
+    second: {fileID: 2100000, guid: 5d12ad2f0a798e249bb96523be4c3909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_050Mat
+    second: {fileID: 2100000, guid: dc69828edd23b454e90e87b84d50f337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_051Mat
+    second: {fileID: 2100000, guid: d344924549b1cf8468423cb11c152864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_052Mat
+    second: {fileID: 2100000, guid: a80e8abb76f750f41b845e8cb7dc100e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_053Mat
+    second: {fileID: 2100000, guid: 408e93dd42287234da9f1d7d4970e2f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_054Mat
+    second: {fileID: 2100000, guid: e529841ccfe5d8e48a0e3f84d0d27219, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_055Mat
+    second: {fileID: 2100000, guid: 1592ead5f9315ee4c84d94da125a8c9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_056Mat
+    second: {fileID: 2100000, guid: 2ec90705a623b8a4a8c6fe9a7fa79936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_057Mat
+    second: {fileID: 2100000, guid: 0291df27024054e4ea43ff38bdaa6417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_058Mat
+    second: {fileID: 2100000, guid: 269545fe2bd25264e88e3cf720e7d583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_059Mat
+    second: {fileID: 2100000, guid: bafa0ddde4b08cb4798b24c3af2d5fd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_060Mat
+    second: {fileID: 2100000, guid: 3a29e40b48f73b44a82659dc1d51fc32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_061Mat
+    second: {fileID: 2100000, guid: 222d6b2090fb6274e917ff055195352c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_062Mat
+    second: {fileID: 2100000, guid: 02fb166181960ae4ba03af16007418a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_063Mat
+    second: {fileID: 2100000, guid: 53b29b3ae99d4c44d9d13ce18fa5ee59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_064Mat
+    second: {fileID: 2100000, guid: b5af14f7e00c8ff4587eaf679e7903bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_067Mat
+    second: {fileID: 2100000, guid: a5032e8a6bbcb6f44aedab3e4640c0c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_068Mat
+    second: {fileID: 2100000, guid: c327dbf28f6c43e4f8f0cabcfae52345, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_069Mat
+    second: {fileID: 2100000, guid: f4669d9971f1d904f98591df8a427856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_070Mat
+    second: {fileID: 2100000, guid: fc2b755501d32ba46ae873ecc63dadbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_071Mat
+    second: {fileID: 2100000, guid: 4516e6b1df8cd8e4882bf640c2f849d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_072Mat
+    second: {fileID: 2100000, guid: 5a480cf3023d3b94cbe777cfceafea33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_073Mat
+    second: {fileID: 2100000, guid: 78bd8cd9704b5b740b5d0ce62a3728c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_074Mat
+    second: {fileID: 2100000, guid: 87496fd9df36e7745a42c7830ad8d166, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_075Mat
+    second: {fileID: 2100000, guid: fd89a703ea23d75478e9415247132954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_076Mat
+    second: {fileID: 2100000, guid: 797aa919efe0e5d499e8d0dbb9e364a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_077Mat
+    second: {fileID: 2100000, guid: 857153b26236b684d8af82f2f6f5274f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_078Mat
+    second: {fileID: 2100000, guid: 03ab4bf38cbd14d4894c1f5b716ca9aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_079Mat
+    second: {fileID: 2100000, guid: af63cc3b376dadc4a924a5e91b1262fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_080Mat
+    second: {fileID: 2100000, guid: f5fe4bc5472120446a138eec0f124e56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_081Mat
+    second: {fileID: 2100000, guid: 3f37fffec5879e546b8a0908ecd7fa94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_082Mat
+    second: {fileID: 2100000, guid: e5bbc16ee4368cf44b3fb9aaec430703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_083Mat
+    second: {fileID: 2100000, guid: 9491ebe79349cde4f8fe497180e10570, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_084Mat
+    second: {fileID: 2100000, guid: c858fcd4ac5eb6a4dab17878d8e68e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_085Mat
+    second: {fileID: 2100000, guid: 630d01cff7994144794ac38d4820276b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_086Mat
+    second: {fileID: 2100000, guid: 55b795f4d4ebaab41a1b0da7acac8405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_087Mat
+    second: {fileID: 2100000, guid: 98dba5eda794a344eaeac19f85b767a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_088Mat
+    second: {fileID: 2100000, guid: 72155a41f858f3f4a880de00030e141f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_089Mat
+    second: {fileID: 2100000, guid: 9fbc939e57d4a6946b46ed06f46ba315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_090Mat
+    second: {fileID: 2100000, guid: 14bf62bc0b00a51468d2eb1b902ea3c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_091Mat
+    second: {fileID: 2100000, guid: 6e0cd96d47cc0f6498e49012297f919b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_092Mat
+    second: {fileID: 2100000, guid: 831dba7e361a4e448a6c92c30927267a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_093Mat
+    second: {fileID: 2100000, guid: c98ec7b69afa68d42905f77c1833e31b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_094Mat
+    second: {fileID: 2100000, guid: 2d5a852b3e518504bb3db68d10467e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_095Mat
+    second: {fileID: 2100000, guid: 930831f03f67ee344809bb08fbe746ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_096Mat
+    second: {fileID: 2100000, guid: db247d9c9079d8842b894b0bc5484fc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_097Mat
+    second: {fileID: 2100000, guid: 070296673d1dd3d478e514895ad6ba15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_098Mat
+    second: {fileID: 2100000, guid: 2792176d1d852db44812e423c6983bf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_099Mat
+    second: {fileID: 2100000, guid: 143fe01b61671704e9f1755ac541e7fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_100Mat
+    second: {fileID: 2100000, guid: b238edff4db758d498391fd532c06228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_101Mat
+    second: {fileID: 2100000, guid: 1a571723b628eb74dba5ee9a6145d284, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_102Mat
+    second: {fileID: 2100000, guid: 62ff142b55367834497c8a3e33fdcb6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_103Mat
+    second: {fileID: 2100000, guid: b87dc84b779158d4d8b65ef151530084, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_104Mat
+    second: {fileID: 2100000, guid: 8ab1450ee18510045907d0d026d7b20c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_105Mat
+    second: {fileID: 2100000, guid: 3b07e6467d1337c45afb4f4af8f3e372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_106Mat
+    second: {fileID: 2100000, guid: 4832c1cf969207748923b6768447d663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_107Mat
+    second: {fileID: 2100000, guid: 1a66fa3931b09e44bbe0f9ead101906c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_108Mat
+    second: {fileID: 2100000, guid: c5f17cbee3aa781449b66486b6748d25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_109Mat
+    second: {fileID: 2100000, guid: 001b9c772fef7f54d807a0b92db0d7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_110Mat
+    second: {fileID: 2100000, guid: 99c072203e89f1b438fe936e2a5cd5c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_111Mat
+    second: {fileID: 2100000, guid: 95fba690299612d4cbec96de9aab63c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_112Mat
+    second: {fileID: 2100000, guid: 6ee2952527ecd784ebc224f48ba99535, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_113Mat
+    second: {fileID: 2100000, guid: 40e26ed8b29e616468f404f1faec360a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_114Mat
+    second: {fileID: 2100000, guid: 1706ef5401bc9804785b6b43812e575f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_115Mat
+    second: {fileID: 2100000, guid: 7eb4b85fb7de80646b803d56be428223, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_116Mat
+    second: {fileID: 2100000, guid: c6ad024f5ea92664786ba43475e7b176, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_117Mat
+    second: {fileID: 2100000, guid: 1f533a6a5f0ec7649baeb65d355a3ebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_118Mat
+    second: {fileID: 2100000, guid: 4ca432cb978d3084195d0fe1173f2985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_119Mat
+    second: {fileID: 2100000, guid: a4c93f8cfaa163d4d8e53bbb93a9b94c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_120Mat
+    second: {fileID: 2100000, guid: 66afd4d0d8616424884729ee0c5ce598, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_121Mat
+    second: {fileID: 2100000, guid: 1941cad60867efd4bb80c0da05414db3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_122Mat
+    second: {fileID: 2100000, guid: b3931b9abb0ddfb4bb89049bcef1d5d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_123Mat
+    second: {fileID: 2100000, guid: d25e426894f86d043af8574e05527150, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_124Mat
+    second: {fileID: 2100000, guid: 8bf5d52ca44266f44a8649dd11da42ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_125Mat
+    second: {fileID: 2100000, guid: 746af158c2c944f4b93383fbe74b8568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_126Mat
+    second: {fileID: 2100000, guid: 781d0f96de04bd44aba5dd3c2bb3475a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_127Mat
+    second: {fileID: 2100000, guid: dbac76d742eec334fbbfc69936ee638d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_128Mat
+    second: {fileID: 2100000, guid: 1f19903f67a5f0f46a135761491b8242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_129Mat
+    second: {fileID: 2100000, guid: f505aa266794a7043b725834d35ec12d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_130Mat
+    second: {fileID: 2100000, guid: 2ba064028bc894d4eb0971c4a4bb594d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_131Mat
+    second: {fileID: 2100000, guid: 89fd3f76eb2d15d40b8ee5d86cf7d28c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_132Mat
+    second: {fileID: 2100000, guid: e48f2481d73e02843b9f50cc34ae1687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_133Mat
+    second: {fileID: 2100000, guid: 6fdcb56d85ede0e4889d3b9c899ccc69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_134Mat
+    second: {fileID: 2100000, guid: 2a03bbc6ae0815c42bed75c53ed3988e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_2Mat
+    second: {fileID: 2100000, guid: cc98aaf9eca72a145ba6a75da3dda18b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
