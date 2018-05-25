@@ -29,6 +29,7 @@ public class CharMotor : MonoBehaviour {
         //Переходим от кадров к секундам!
         moveVector *= Time.deltaTime;
         //Двигаем!
+        Debug.Log(CharController.unityController);
         CharController.unityController.Move(moveVector);
     }
 

@@ -94,7 +94,7 @@ public class CharTPSCamera : MonoBehaviour {
         _mouseY = Utils.ClampAngle(_mouseY, _Y_MIN_LIMIT, _Y_MAX_LIMIT);
 
         //Данные с колесика мышки
-        float scroll = Input.GetAxis("Mouse ScrollWhell");
+        /*float scroll = Input.GetAxis("Mouse ScrollWhell");
 
         //Если вышли за пределы "мертвой зоны"
         if (scroll < -_DEAD_ZONE || scroll > _DEAD_ZONE)
@@ -102,7 +102,7 @@ public class CharTPSCamera : MonoBehaviour {
             //Рассчитываем желаемое расстояние от камеры до персонажа
             //Введенное значение умножаем на чувствительность, вычитаем его из текущего расстояния и ограничиваем сверху и снизу
             _desireDistance = Mathf.Clamp(Distance - scroll * _MOUSE_WHEEL_SENSITIVITY, _DISTANCE_MIN, _DISTANCE_MAX);
-        }
+        }*/
     }
 
     //Рассчитываем желаемую позицию камеры
