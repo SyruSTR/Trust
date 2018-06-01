@@ -62,15 +62,16 @@
     <Compile Include="Assets\Scripts\Camera_2.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
+    <Compile Include="Assets\Scripts\PersMove.cs" />
     <Compile Include="Assets\Scripts\Rotation_Player.cs" />
     <Compile Include="Assets\Scripts\Tests\CharController.cs" />
     <Compile Include="Assets\Scripts\Tests\CharMotor.cs" />
     <Compile Include="Assets\Scripts\Tests\CharTPSCamera.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>M:/dev/Trust/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>M:/dev/Trust/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>M:/dev/Trust/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

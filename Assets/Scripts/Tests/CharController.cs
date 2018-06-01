@@ -22,7 +22,7 @@ public class CharController : MonoBehaviour {
         instance = this;
 
         //Находим компонент - CharacterController
-        unityController = GetComponent(CharacterController) as CharacterController;
+        unityController = GetComponent("CharacterController") as CharacterController;
 
         //Просим у класса камеры найти камеру в сцене
         CharTPSCamera.GetCamera();
