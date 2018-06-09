@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PersMove : MonoBehaviour {
 
-    float speed = 2f;
+    public float speed = 2f;
     float gravity = 20f;
 
     Vector3 direction;
