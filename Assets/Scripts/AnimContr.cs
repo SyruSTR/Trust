@@ -8,10 +8,11 @@ public class AnimContr : MonoBehaviour {
     Animator animator;
     float vertical;
     float horizontal;
+    bool Test_run;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         animator = GetComponent<Animator>();
 	}
 	
@@ -20,15 +21,37 @@ public class AnimContr : MonoBehaviour {
         vertical = Input.GetAxis("Vertical");
         horizontal = Input.GetAxis("Horizontal");
 
+        if (Input.GetKey(KeyCode.W))
+        {
+             Test_run = true;
+        }
+        if (!Input.GetKey(KeyCode.W))
+        {
+             Test_run = false;
+        }
+        if (!Test_run)
+        {
+            vertical = 0;
+        }
         if (vertical == 0)
         {
             animator.SetBool("Run", false);
-            Debug.Log("333");
+            animator.SetBool("RunBack",false);
+            if (!animator.GetBool("Run"))
+                Debug.Log("false");
         }
-        if(vertical >= 0.1)
+        if(vertical > 0)
         {
             animator.SetBool("Run", true);
-            Debug.Log("111");
+            if (animator.GetBool("Run"))
+                Debug.Log("true");
         }
+        if (vertical < 0)
+        {
+            animator.SetBool("RunBack",true);
+            if (animator.GetBool("RunBack"))
+                Debug.Log("GGG");
+        }
+        
 	}
 }

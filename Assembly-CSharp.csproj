@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AnimContr.cs" />
     <Compile Include="Assets\Scripts\Camera_2.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
@@ -68,11 +69,12 @@
     <Compile Include="Assets\Scripts\Tests\CharController.cs" />
     <Compile Include="Assets\Scripts\Tests\CharMotor.cs" />
     <Compile Include="Assets\Scripts\Tests\CharTPSCamera.cs" />
+    <None Include="Assets\Models\Материалы к уроку Unity CG - Анимирование персонажа\Информация.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/syrus/Desktop/Trust/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>M:/I/dev/Trust/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/syrus/Desktop/Trust/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>M:/I/dev/Trust/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
