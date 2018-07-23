@@ -25,7 +25,7 @@ public class CharController : MonoBehaviour {
         unityController = GetComponent("CharacterController") as CharacterController;
 
         //Просим у класса камеры найти камеру в сцене
-        CharTPSCamera.GetCamera();
+       // CharTPSCamera.GetCamera();
     }
 
 

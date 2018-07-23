@@ -7,7 +7,7 @@ public class AnimContr : MonoBehaviour {
 
     Animator animator;
     float vertical;
-    float horizontal;
+    //float horizontal;
     bool Test_run;
 
 
@@ -19,7 +19,7 @@ public class AnimContr : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         vertical = Input.GetAxis("Vertical");
-        horizontal = Input.GetAxis("Horizontal");
+        //horizontal = Input.GetAxis("Horizontal");
 
         if (Input.GetKey(KeyCode.W))
         {
