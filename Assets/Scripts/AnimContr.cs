@@ -3,55 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimContr : MonoBehaviour {
-
-
     Animator animator;
-    float vertical;
-    //float horizontal;
-    bool Test_run;
 
-
-    // Use this for initialization
     void Start () {
         animator = GetComponent<Animator>();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-        vertical = Input.GetAxis("Vertical");
-        //horizontal = Input.GetAxis("Horizontal");
 
-        if (Input.GetKey(KeyCode.W))
+	void Update () {
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-             Test_run = true;
+            //animator.SetBool("Attack", true);
+            animator.SetFloat("attack", 1);
+            Debug.Log("gg");
         }
-        if (!Input.GetKey(KeyCode.W))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-             Test_run = false;
+            //animator.SetBool("Attack", false);
+            animator.SetFloat("attack", 0);
+            Debug.Log("123");
         }
-        if (!Test_run)
-        {
-            vertical = 0;
-        }
-        if (vertical == 0)
-        {
-            animator.SetBool("Run", false);
-            animator.SetBool("RunBack",false);
-            if (!animator.GetBool("Run"))
-                Debug.Log("false");
-        }
-        if(vertical > 0)
-        {
-            animator.SetBool("Run", true);
-            if (animator.GetBool("Run"))
-                Debug.Log("true");
-        }
-        if (vertical < 0)
-        {
-            animator.SetBool("RunBack",true);
-            if (animator.GetBool("RunBack"))
-                Debug.Log("GGG");
-        }
-        
-	}
+    }
 }

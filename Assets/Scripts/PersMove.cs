@@ -34,10 +34,10 @@ public class PersMove : MonoBehaviour {
             PlayAnim(horizontal,vertical);
             direction = new Vector3(horizontal, 0f, vertical);
             direction = transform.TransformDirection(direction) * speed;
-            if (Input.GetKey(KeyCode.Space))
-            {
-                direction.y = 6;
-            }
+            //if (Input.GetKey(KeyCode.Space))
+            //{
+            //    direction.y = 6;
+            //}
         }
         direction.y -= gravity * Time.deltaTime;
         controller.Move(direction * Time.deltaTime);
@@ -45,21 +45,23 @@ public class PersMove : MonoBehaviour {
         {
             transform.position = respawn.position;
         }
+
+        if (horizontal != 0 || vertical != 0)
+        {
+            
+            Vector3 dir = posTarget.position - transform.position;
+            dir.y = 0;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+        }
         
-        //if(horizontal !=0 || vertical != 0)
+        //if (Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.S)|| Input.GetKey(KeyCode.D))
         //{
-        //    Vector3 dir = posTarget.position - transform.position;
-        //    dir.y = 0;
-        //    transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), turnSpeed * Time.deltaTime);
+        //    speed = 3;
         //}
-        if(Input.GetKey(KeyCode.A)|| Input.GetKey(KeyCode.S)|| Input.GetKey(KeyCode.D))
-        {
-            speed = 3;
-        }
-        else
-        {
-            speed = 4;
-        }
+        //else
+        //{
+        //    speed = 4;
+        //}
 	}
 
     private void OnTriggerEnter(Collider other)

@@ -47,7 +47,7 @@ ModelImporter:
     400038: Bip001 R UpperArm
     400040: Bip001 Spine
     400042: //RootNode
-    7400000: WK_heavy_infantry_06_combat_walk
+    7400000: walk
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -78,7 +78,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: WK_heavy_infantry_06_combat_walk
+      name: walk
       takeName: Take 001
       firstFrame: 0
       lastFrame: 36
