@@ -5,9 +5,7 @@ using UnityEngine;
 public class IK_Controller : MonoBehaviour {
 
     public float offset;
-    public bool isActiveIK = true;
-    public float height;
-    
+    public bool isActiveIK = true;    
 
     private Animator animator;
 
@@ -23,7 +21,7 @@ public class IK_Controller : MonoBehaviour {
     private Transform leftFoot;
     private Transform rightFoot;
 
-    public bool isGround;
+    private bool isGround;
 
 	void Start () {
         animator = GetComponent<Animator>();
@@ -35,25 +33,28 @@ public class IK_Controller : MonoBehaviour {
 	void Update () {
 
         if (!isActiveIK)
+        {
             return;
+        }
 
         isGround = true;
 
         CheckFootPosition(leftFoot.position, ref leftFootTargetPos, ref leftFootTargetRot);
         CheckFootPosition(rightFoot.position, ref rightFootTargetPos, ref rightFootTargetRot);
-	}
-    void CheckFootPosition(Vector3 _footCurrentPosition, ref Vector3 _footNextPosition, ref Quaternion _footNextRotation)
-    {
-        Vector3 footPosition = _footCurrentPosition;
-        RaycastHit hit;
-        if (Physics.Raycast(footPosition + Vector3.up * height, Vector3.down, out hit, 1.5f))
+
+        void CheckFootPosition(Vector3 _footCurrentPosition, ref Vector3 _footNextPosition, ref Quaternion _footNextRotation)
         {
-            _footNextPosition = Vector3.Lerp(footPosition, hit.point + Vector3.up * offset, Time.deltaTime * 10f);
-            _footNextRotation = Quaternion.FromToRotation(transform.up, hit.normal);
+            Vector3 footPosition = _footCurrentPosition;
+            if (Physics.Raycast(footPosition + Vector3.up * 0.5f, Vector3.down, out RaycastHit hit, 1.5f))
+            {
+                _footNextPosition = Vector3.Lerp(footPosition, hit.point + Vector3.up * offset, Time.deltaTime * 10f);
+                _footNextRotation = Quaternion.FromToRotation(transform.up, hit.normal);
+            }
+            else
+                isGround = false;
         }
-        else
-            isGround = false;
     }
+
     private void OnAnimatorIK(int layerIndex)
     {
         if (!isActiveIK)
