@@ -26,16 +26,16 @@ public class PlayerInput : MonoBehaviour
         Vector2 input = Vector2.zero;
 
         if (Input.GetKey(moveForward))
-            input.y = 0.1f;
+            input.y = 1;
         else if (Input.GetKey(moveBack))
-            input.y = -0.1f;
+            input.y = -1;
 
         if (Input.GetKey(moveLeft))
-            input.x = -0.1f;
+            input.x = -1;
         else if (Input.GetKey(moveRight))
-            input.x = 0.1f;
+            input.x = 1;
 
-        if (Input.GetKey(jump))
+        if (Input.GetKeyDown(jump))
             movementController.Jump();
 
         movementController.Move(input, Input.GetKey(acceleration));
