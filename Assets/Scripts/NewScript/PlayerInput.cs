@@ -23,6 +23,8 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(jump))
+            movementController.Jump();
         Vector2 input = Vector2.zero;
 
         if (Input.GetKey(moveForward))
@@ -35,8 +37,7 @@ public class PlayerInput : MonoBehaviour
         else if (Input.GetKey(moveRight))
             input.x = 1;
 
-        if (Input.GetKeyDown(jump))
-            movementController.Jump();
+        
 
         movementController.Move(input, Input.GetKey(acceleration));
     }

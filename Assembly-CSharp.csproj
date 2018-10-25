@@ -56,10 +56,12 @@
      <Compile Include="Assets\Scripts\AnimContr.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Arsenal_Controller.cs" />
      <Compile Include="Assets\Scripts\NewScript\CameraMove.cs" />
      <Compile Include="Assets\Scripts\NewScript\IK_Controller.cs" />
      <Compile Include="Assets\Scripts\NewScript\MovementController.cs" />
      <Compile Include="Assets\Scripts\NewScript\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\NewScript\SwitchWeapon.cs" />
      <Compile Include="Assets\Scripts\PersMove.cs" />
      <Compile Include="Assets\Scripts\Rotation_Player.cs" />
      <Compile Include="Assets\Scripts\RoteteCharacter.cs" />
