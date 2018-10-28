@@ -17,11 +17,11 @@ public class SwitchWeapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if (i > 2)
+            if (i > Arsenal_Controller.arsenal.Count -1)
             {
                 i = 0;
             }
-            Debug.Log(i.ToString());
+            //Debug.Log(i.ToString());
             string name = Arsenal_Controller.arsenal[i].name;
             Arsenal_Controller.SetArsenal(name);
             i++;

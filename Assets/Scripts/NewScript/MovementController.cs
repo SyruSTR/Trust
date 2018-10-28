@@ -9,6 +9,7 @@ public class MovementController : MonoBehaviour
     public float walkSpeed = 2.5f;
     public float runSpeed = 3.5f;
     public float gravity = -9.8f;
+    public float speedAnim;
     private float targetSpeed =0;
 
     [Space]
@@ -20,6 +21,7 @@ public class MovementController : MonoBehaviour
 
     [Space]
     public float jumpForce = 1.35f;
+    public float jumpSpeedOffset = 0.7f;
     private float jumpVelocity = 0;
 
     //Cash
@@ -56,10 +58,10 @@ public class MovementController : MonoBehaviour
 
         
         Vector3 velocity = transform.forward * currentSpeed + Vector3.up * gravity + Vector3.up * jumpVelocity;
-        if (velocity.y > gravity)
+        if (velocity.y > 0)
         {
-            velocity.x *= currentSpeed;
-            velocity.z *= currentSpeed;
+            velocity.x *= currentSpeed * jumpSpeedOffset;
+            velocity.z *= currentSpeed * jumpSpeedOffset;
         }
 
         characterController.Move(velocity * Time.deltaTime);
@@ -70,7 +72,7 @@ public class MovementController : MonoBehaviour
             jumpVelocity = 0;
 
         animator.SetBool("isMove", targetSpeed != 0);
-        animator.SetFloat("movementSpeed", targetSpeed * 0.5f);
+        animator.SetFloat("movementSpeed", targetSpeed * speedAnim);
         animator.SetBool("isGround", characterController.isGrounded);
         if (characterController.isGrounded)
              animator.SetFloat("groudDistance", GetGroundDistance());

@@ -37,6 +37,6 @@ public class CameraMove : MonoBehaviour
         currentRotation = Vector3.SmoothDamp(currentRotation, new Vector3(inputY, inputX), ref currentVelocity, smoothTime);
         transform.eulerAngles = currentRotation;
 
-        transform.position = (player.position + offset) - transform.forward * distanceFromTarget;
+        transform.position = (player.position + offset) - transform.forward  *distanceFromTarget;
     }
 }
