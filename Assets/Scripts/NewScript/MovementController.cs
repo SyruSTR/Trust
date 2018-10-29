@@ -33,7 +33,8 @@ public class MovementController : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-       // camera = Camera.main.transform;
+        animator.SetBool("IsSword", true);
+        // camera = Camera.main.transform;
     }
 
     public void Move(Vector2 _input, bool _isAcceleration)
@@ -41,7 +42,7 @@ public class MovementController : MonoBehaviour
         if (_input != Vector2.zero)
         {
             float targetRotation = Mathf.Atan2(_input.x, _input.y) * Mathf.Rad2Deg + camera.eulerAngles.y;
-            transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref currentVelocityRotate, smoothTime);
+            transform.eulerAngles = Vector3.up * Mathf.SmoothDampAngle(transform.eulerAngles.y, targetRotation, ref currentVelocityRotate, smoothTime);            
             //Debug.Log("targetRotation" + targetRotation.ToString());
             //Debug.Log("transform.eulerAngles" + transform.eulerAngles.ToString());
         }
@@ -79,6 +80,7 @@ public class MovementController : MonoBehaviour
         //Debug.Log("Velocity" + velocity.ToString());
         //Debug.Log("currentSpeed" + currentSpeed.ToString());
         //Debug.Log("jumpVelocity" + jumpVelocity.ToString());
+        Debug.Log((targetSpeed * speedAnim).ToString());
         
     }
 
