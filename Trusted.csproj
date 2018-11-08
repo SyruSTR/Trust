@@ -309,12 +309,7 @@
     <Compile Include="Assets\Scripts\AnimContr.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Scripts\MovePlayer.cs" />
-    <Compile Include="Assets\Scripts\NewScript\Arsenal_Controller.cs" />
-    <Compile Include="Assets\Scripts\NewScript\CameraMove.cs" />
-    <Compile Include="Assets\Scripts\NewScript\IK_Controller.cs" />
-    <Compile Include="Assets\Scripts\NewScript\MovementController.cs" />
-    <Compile Include="Assets\Scripts\NewScript\PlayerInput.cs" />
-    <Compile Include="Assets\Scripts\NewScript\SwitchWeapon.cs" />
+    <Compile Include="Assets\Scripts\NewScript\AI\Skeleton_Controller.cs" />
     <Compile Include="Assets\Scripts\PersMove.cs" />
     <Compile Include="Assets\Scripts\Rotation_Player.cs" />
     <Compile Include="Assets\Scripts\RoteteCharacter.cs" />
@@ -331,6 +326,9 @@
     <None Include="C:\Users\dargo\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageList.uxml" />
     <None Include="C:\Users\dargo\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageManagerWindow.uxml" />
     <None Include="C:\Users\dargo\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor\Resources\Templates\PackageSearchFilterTabs.uxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\NewScript\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

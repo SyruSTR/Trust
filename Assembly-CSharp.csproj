@@ -53,18 +53,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AnimContr.cs" />
-     <Compile Include="Assets\Scripts\MoveCamera.cs" />
-     <Compile Include="Assets\Scripts\MovePlayer.cs" />
-     <Compile Include="Assets\Scripts\NewScript\Arsenal_Controller.cs" />
-     <Compile Include="Assets\Scripts\NewScript\CameraMove.cs" />
-     <Compile Include="Assets\Scripts\NewScript\IK_Controller.cs" />
-     <Compile Include="Assets\Scripts\NewScript\MovementController.cs" />
-     <Compile Include="Assets\Scripts\NewScript\PlayerInput.cs" />
-     <Compile Include="Assets\Scripts\NewScript\SwitchWeapon.cs" />
-     <Compile Include="Assets\Scripts\PersMove.cs" />
-     <Compile Include="Assets\Scripts\Rotation_Player.cs" />
-     <Compile Include="Assets\Scripts\RoteteCharacter.cs" />
+     <Compile Include="Assets\Scripts\NewScript\AI\Anim_Functions.cs" />
+     <Compile Include="Assets\Scripts\NewScript\AI\Skeleton_Controller.cs" />
+     <Compile Include="Assets\Scripts\NewScript\All_Creatures\IK_Controller.cs" />
+     <Compile Include="Assets\Scripts\NewScript\All_Creatures\MovementController.cs" />
+     <Compile Include="Assets\Scripts\NewScript\All_Creatures\Stasts.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Character\Arsenal_Controller.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Character\CameraMove.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Character\PlayerInput.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Character\SwitchWeapon.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Character\UI.cs" />
+     <Compile Include="Assets\Scripts\NewScript\Singleton.cs" />
+     <Compile Include="Assets\Scripts\OldScript\AnimContr.cs" />
+     <Compile Include="Assets\Scripts\OldScript\MoveCamera.cs" />
+     <Compile Include="Assets\Scripts\OldScript\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\OldScript\PersMove.cs" />
+     <Compile Include="Assets\Scripts\OldScript\Rotation_Player.cs" />
+     <Compile Include="Assets\Scripts\OldScript\RoteteCharacter.cs" />
+     <None Include="Assets\Models\Weapon\Weapons Pack(LOW POLY)\Weapons Pack info.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>F:/DEV/Trust/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
