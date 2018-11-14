@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Red_Enemy
   - Sword_Skeleton
+  - Sword
   layers:
   - Default
   - TransparentFX

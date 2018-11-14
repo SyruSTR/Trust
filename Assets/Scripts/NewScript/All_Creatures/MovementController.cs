@@ -41,7 +41,19 @@ public class MovementController : MonoBehaviour
         animator.SetBool("IsSword", true);
         // camera = Camera.main.transform;
     }
-
+    void Update()
+    {
+        animator.SetFloat("Attack_WeakF", Stasts.Instance.Weak_attack_count);
+        animator.SetFloat("Attack_LargeF", Stasts.Instance.Large_attack);
+        animator.SetBool("isGround", characterController.isGrounded);
+        if(!characterController.isGrounded)
+        {
+            Stasts.Instance.Weak_attack_count = 0;
+            Stasts.Instance.Large_attack = 0;
+            Stasts.Instance.Weak_Attack_NOT_COUNT = false;
+            Stasts.Instance.Large_Attack_NOT_COUNT = false;
+        }
+    }
     public void Move(Vector2 _input, bool _isAcceleration)
     {
         if (_input != Vector2.zero)
@@ -79,7 +91,7 @@ public class MovementController : MonoBehaviour
 
         animator.SetBool("isMove", targetSpeed != 0);
         animator.SetFloat("movementSpeed", targetSpeed * speedAnim);
-        animator.SetBool("isGround", characterController.isGrounded);
+        
         if (characterController.isGrounded)
              animator.SetFloat("groudDistance", GetGroundDistance());
         //Debug.Log("Velocity" + velocity.ToString());
@@ -101,10 +113,14 @@ public class MovementController : MonoBehaviour
     {
         if (characterController.isGrounded)
         {
-            if (strange)
-                animator.SetTrigger("Attack_Weak");
-            else
-                animator.SetTrigger("Attack_Large");
+            if (strange && !Stasts.Instance.Weak_Attack_NOT_COUNT)
+            {
+                Stasts.Instance.Weak_attack_count++;                
+            }
+            else if (!strange && !Stasts.Instance.Weak_Attack_NOT_COUNT)
+            {
+                Stasts.Instance.Large_attack++;                
+            }
         }
     }
 
