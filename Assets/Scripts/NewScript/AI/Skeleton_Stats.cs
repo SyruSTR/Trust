@@ -20,7 +20,7 @@ public class Skeleton_Stats : Singleton<Skeleton_Stats>
 			HP = 100;
 		}
 		text_HP.text = HP.ToString();
-		Debug.Log(sword_Trigger.ToString() + attack_Trigger.ToString());
+		//Debug.Log(sword_Trigger.ToString() + attack_Trigger.ToString());
 		//Debug.Log(attack_Trigger + " Attack");
 		//Debug.Log(sword_Trigger + " sword");
 		if (!attack_Trigger && sword_Trigger)
