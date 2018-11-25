@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IK_Controller : MonoBehaviour {
+public class IK_Controller : MonoBehaviour
+{
 
     public float offset;
-    public bool isActiveIK = true;    
+    public bool isActiveIK = true;
 
     private Animator animator;
 
@@ -23,14 +24,16 @@ public class IK_Controller : MonoBehaviour {
 
     private bool isGround;
 
-	void Start () {
+    void Start()
+    {
         animator = GetComponent<Animator>();
 
         leftFoot = animator.GetBoneTransform(HumanBodyBones.LeftFoot);
         rightFoot = animator.GetBoneTransform(HumanBodyBones.RightFoot);
-	}
-	
-	void Update () {
+    }
+
+    void Update()
+    {
 
         if (!isActiveIK)
         {

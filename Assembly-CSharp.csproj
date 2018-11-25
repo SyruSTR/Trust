@@ -58,13 +58,12 @@
      <Compile Include="Assets\Scripts\NewScript\AI\Skeleton_Stats.cs" />
      <Compile Include="Assets\Scripts\NewScript\All_Creatures\IK_Controller.cs" />
      <Compile Include="Assets\Scripts\NewScript\All_Creatures\MovementController.cs" />
-     <Compile Include="Assets\Scripts\NewScript\All_Creatures\Stasts.cs" />
+     <Compile Include="Assets\Scripts\NewScript\All_Creatures\Stats.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\Arsenal_Controller.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\CameraMove.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\SwitchWeapon.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\UI.cs" />
-     <Compile Include="Assets\Scripts\NewScript\Singleton.cs" />
      <Compile Include="Assets\Scripts\NewScript\UI\Menu_UI.cs" />
      <Compile Include="Assets\Scripts\OldScript\AnimContr.cs" />
      <Compile Include="Assets\Scripts\OldScript\MoveCamera.cs" />

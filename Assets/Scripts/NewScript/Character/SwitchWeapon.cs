@@ -22,7 +22,7 @@ public class SwitchWeapon : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             isSword = !isSword;
-            if (i > Arsenal_Controller.arsenal.Count -1)
+            if (i > Arsenal_Controller.arsenal.Count - 1)
             {
                 i = 0;
             }
@@ -30,7 +30,7 @@ public class SwitchWeapon : MonoBehaviour
             string name = Arsenal_Controller.arsenal[i].name;
             Arsenal_Controller.SetArsenal(name);
             animator.SetBool("IsSword", isSword);
-            i++;            
+            i++;
         }
     }
 }

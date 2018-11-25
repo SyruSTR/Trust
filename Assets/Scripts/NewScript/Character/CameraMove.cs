@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraMove : MonoBehaviour
 {
     public Transform player;
     public Vector3 offset;
+    public Slider sensitivity_slider;
 
     [Header("Rotate")]
     public float speedRotate = 10;
@@ -27,6 +29,8 @@ public class CameraMove : MonoBehaviour
 
     private void LateUpdate()
     {
+        //sensitivity_slider.value = 5;
+        speedRotate = sensitivity_slider.value;
         inputX += Input.GetAxis("Mouse X") * speedRotate;
         inputY -= Input.GetAxis("Mouse Y") * speedRotate;
         inputY = Mathf.Clamp(inputY, minY, maxY);
@@ -37,6 +41,6 @@ public class CameraMove : MonoBehaviour
         currentRotation = Vector3.SmoothDamp(currentRotation, new Vector3(inputY, inputX), ref currentVelocity, smoothTime);
         transform.eulerAngles = currentRotation;
 
-        transform.position = (player.position + offset) - transform.forward  *distanceFromTarget;
+        transform.position = (player.position + offset) - transform.forward * distanceFromTarget;
     }
 }

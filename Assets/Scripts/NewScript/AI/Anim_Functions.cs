@@ -4,37 +4,62 @@ using UnityEngine;
 
 public class Anim_Functions : MonoBehaviour
 {
+    GameObject stats;
+    GameObject skeleton_stats;
+    Stats stats_script;
     //Skeleton Events
+    void Start()
+    {
+        stats = GameObject.FindGameObjectWithTag("Player");
+        stats_script = GetComponent<Stats>();
+        skeleton_stats = GameObject.FindGameObjectWithTag("Red_Enemy");
+    }
     public void Skeleton_Damage()
     {
-        Stasts.Instance.Attack_Trigger = false;
-            
+        FindPlayer().GetComponent<Stats>().Attack_Trigger = false;
+
     }
     //Knight Enents
     public void Damage()
     {
-        Skeleton_Stats.Instance.Attack_Trigger = false;
+        foreach (GameObject skeleton in stats_script.FindSkeletons())
+            skeleton.GetComponent<Skeleton_Stats>().Attack_Trigger = false;
     }
     //-----------
     public void Weak_Attack_Non_Count()
     {
-        Stasts.Instance.Weak_Attack_NOT_COUNT = true;
-        Stasts.Instance.Weak_attack_count=0;
+        stats_script.Weak_Attack_NOT_COUNT = true;
+        stats_script.Weak_attack_count = 0;
     }
     public void Weak_Attack()
     {
-        Stasts.Instance.Weak_Attack_NOT_COUNT = false;
-        Stasts.Instance.Weak_attack_count = 0;
+        stats_script.Weak_Attack_NOT_COUNT = false;
+        stats_script.Weak_attack_count = 0;
     }
     //---------------
     public void Large_Attack_Non_Count()
     {
-        Stasts.Instance.Large_Attack_NOT_COUNT = true;
-        Stasts.Instance.Large_attack=0;
+        stats_script.Large_Attack_NOT_COUNT = true;
+        stats_script.Large_attack = 0;
     }
     public void Large_Attack()
     {
-        Stasts.Instance.Large_attack = 0;
-        Stasts.Instance.Large_Attack_NOT_COUNT = false;
+        stats_script.Large_attack = 0;
+        stats_script.Large_Attack_NOT_COUNT = false;
+    }
+    public void Skeleton_Death()
+    {
+        //foreach (GameObject skeleton in stats_script.FindSkeletons())
+            Destroy(this.gameObject);
+    }
+    public void Player_Death()
+    {
+        //Destroy(GameObject.Find("test_2"));
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+    private GameObject FindPlayer()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        return player;
     }
 }

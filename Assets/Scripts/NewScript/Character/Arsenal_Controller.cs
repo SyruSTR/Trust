@@ -18,7 +18,7 @@ public class Arsenal_Controller : MonoBehaviour
         {
             SetArsenal(arsenal[0].name);
         }
-        
+
     }
 
     public void SetArsenal(string name)
@@ -36,14 +36,14 @@ public class Arsenal_Controller : MonoBehaviour
         {
             Destroy(leftBone.GetChild(0).gameObject);
         }
-        if(weapon.rightWeapon != null)
+        if (weapon.rightWeapon != null)
         {
             GameObject newRightWeapon = (GameObject)Instantiate(weapon.rightWeapon);
             newRightWeapon.transform.parent = rightBone;
             newRightWeapon.transform.localPosition = weapon.positionR;
             newRightWeapon.transform.localRotation = Quaternion.Euler(weapon.rotationR);
         }
-        if(weapon.leftWeapon != null)
+        if (weapon.leftWeapon != null)
         {
             GameObject newLeftWeapon = (GameObject)Instantiate(weapon.leftWeapon);
             newLeftWeapon.transform.parent = leftBone;
