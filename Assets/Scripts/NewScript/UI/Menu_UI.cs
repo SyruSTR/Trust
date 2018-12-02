@@ -16,6 +16,7 @@ public class Menu_UI : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = true;
         setActive = false;
         scene = SceneManager.GetActiveScene();
         if (scene.name == "Menu")

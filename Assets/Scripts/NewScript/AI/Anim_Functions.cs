@@ -5,14 +5,12 @@ using UnityEngine;
 public class Anim_Functions : MonoBehaviour
 {
     GameObject stats;
-    GameObject skeleton_stats;
     Stats stats_script;
     //Skeleton Events
     void Start()
     {
         stats = GameObject.FindGameObjectWithTag("Player");
         stats_script = GetComponent<Stats>();
-        skeleton_stats = GameObject.FindGameObjectWithTag("Red_Enemy");
     }
     public void Skeleton_Damage()
     {

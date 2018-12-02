@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
-    public int damage = 1;
+    public int minDamage = 0;
+    public int maxDamage = 3;
     public int MaxHealt = 100;
     private bool attack_Trigger;
     private bool sword_trigger;
@@ -63,12 +64,14 @@ public class Stats : MonoBehaviour
         //Debug.Log(sword_trigger + "Sword");
         if (GameObject.FindGameObjectWithTag("Red_Enemy"))
             foreach (GameObject skeleton in FindSkeletons())
+            {
                 curve = skeleton.GetComponent<Skeleton_Controller>().curve_a;
-        if (!attack_Trigger && sword_trigger && curve > 0)
-        {
-            SetDamage(damage);
-            attack_Trigger = true;
-        }
+		        if (!attack_Trigger && sword_trigger && curve > 0)
+		        {
+		            SetDamage(Random.Range(minDamage,maxDamage));
+		            attack_Trigger = true;
+		        }
+    		}
 
         //if (!sword_trigger) attack_Trigger = false;
     }

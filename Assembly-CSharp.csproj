@@ -63,8 +63,9 @@
      <Compile Include="Assets\Scripts\NewScript\Character\CameraMove.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\NewScript\Character\SwitchWeapon.cs" />
-     <Compile Include="Assets\Scripts\NewScript\Character\UI.cs" />
+     <Compile Include="Assets\Scripts\NewScript\SpawnSkeletons.cs" />
      <Compile Include="Assets\Scripts\NewScript\UI\Menu_UI.cs" />
+     <Compile Include="Assets\Scripts\NewScript\UI\UI.cs" />
      <Compile Include="Assets\Scripts\OldScript\AnimContr.cs" />
      <Compile Include="Assets\Scripts\OldScript\MoveCamera.cs" />
      <Compile Include="Assets\Scripts\OldScript\MovePlayer.cs" />

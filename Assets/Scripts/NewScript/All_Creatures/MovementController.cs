@@ -13,6 +13,7 @@ public class MovementController : MonoBehaviour
     public GameObject skeleton;
     private float targetSpeed = 0;
     private bool death;
+    public Transform spawnpoint;
 
     [Space]
     public float smoothTime = 0.1f;
@@ -71,7 +72,7 @@ public class MovementController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.U))
         {
-            Instantiate(skeleton);
+            Instantiate(skeleton, spawnpoint.position, new Quaternion(0,0,0,0));
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {

@@ -67,6 +67,7 @@ ModelImporter:
     4300000: WK_HeavyIntantry
     9500000: //RootNode
     13700000: WK_HeavyIntantry
+    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -80,7 +81,9 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Avatar Rig Configuration mis-match. Bone length in configuration
+      does not match position in animation file:\n\t'Bip001 L Toe0' : position error
+      = 65.962906 mm\n\t'Bip001 R Toe0' : position error = 65.725487 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -332,7 +335,7 @@ ModelImporter:
       scale: {x: 1.0000004, y: 0.9999999, z: 1.0000002}
     - name: Bip001 L Toe0
       parentName: Bip001 L Foot
-      position: {x: -0.04115651, y: 0.091840476, z: 0.000000009609796}
+      position: {x: -0.0412, y: 0.0363, z: -0}
       rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
       scale: {x: 1.0000001, y: 0.9999995, z: 0.99999994}
     - name: Bip001 L Toe0_end
@@ -357,7 +360,7 @@ ModelImporter:
       scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
     - name: Bip001 R Toe0
       parentName: Bip001 R Foot
-      position: {x: -0.041156515, y: 0.09184058, z: 0.0000000015359941}
+      position: {x: -0.0412, y: 0.0365, z: 0}
       rotation: {x: 0, y: 0, z: 0.7071068, w: -0.7071068}
       scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
     - name: Bip001 R Toe0_end

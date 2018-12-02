@@ -58,7 +58,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
 352455aaadb8c98ff36ead557753abfa Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
-405a58c56fbd8f52ca7b0430a561b902 Assembly-CSharp.dll:.MovementController
+6288b3798eaeee92268cc12d5a2c0401 Assembly-CSharp.dll:.MovementController
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -105,7 +105,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-04be250461c9ec15a47e5d00dce8af04 Assembly-CSharp.dll:.CameraMove
+f5dd708ae7febff8c11a8ac95f049b14 Assembly-CSharp.dll:.CameraMove
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -123,13 +123,13 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 385666d964b0eabb4136cbb95125e502 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.ProtectCameraFromWallClip
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-4d322332035322465014894d88b89aa4 Assembly-CSharp.dll:.IK_Controller
+cb3fe17e922dfa067ad7341ad23f9260 Assembly-CSharp.dll:.IK_Controller
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 a8b6c919b2049fcc280823488144371f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
-aaf7d26d68dac68b8c140bc118c7ca70 Assembly-CSharp.dll:.Skeleton_Controller
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Stasts
+235236d36b84ae8a2f834fc75bceae2e Assembly-CSharp.dll:.Skeleton_Controller
+f0c05ec93210a3d62af91dc34b20c792 Assembly-CSharp.dll:.Stats
 4bd1cc3c85989d2213a9a8fd9d09e63f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fdd7177da17032ba94d98037cc97bb49 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -141,6 +141,7 @@ c88c4199b288356ec3eb2f0d85abc619 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 a522a830de5d6b1a5efdac4529e7698c Assembly-CSharp.dll:.Arsenal_Controller
 1028c39545bcfa841aaab54121e69a47 Assembly-CSharp.dll:.UI
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
+a68bf49f7512fb4c99d016734692d28c Assembly-CSharp.dll:.SpawnSkeletons
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AnimContr
 8216ca00094987954bcf22fd5ccf9bfd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -185,5 +186,5 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-32c86a3bd3f67748abe170ab5d109092 Assembly-CSharp.dll:.Skeleton_Stats
+dde2b2fc03637d4b331a08a47cc98ec2 Assembly-CSharp.dll:.Skeleton_Stats
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh

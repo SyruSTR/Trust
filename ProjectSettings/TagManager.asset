@@ -7,6 +7,7 @@ TagManager:
   - Red_Enemy
   - Sword_Skeleton
   - Sword
+  - Spawnpoints
   layers:
   - Default
   - TransparentFX
