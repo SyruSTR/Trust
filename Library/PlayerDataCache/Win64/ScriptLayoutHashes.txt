@@ -58,7 +58,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
 352455aaadb8c98ff36ead557753abfa Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
-6288b3798eaeee92268cc12d5a2c0401 Assembly-CSharp.dll:.MovementController
+9ba28aa9a9708d0c4edfb2c8eba713ca Assembly-CSharp.dll:.MovementController
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -91,6 +91,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+1028c39545bcfa841aaab54121e69a47 Assembly-CSharp.dll:.UI
 1731d95cc8dce262956d345535456351 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.AutoCam
 d1af9d1a8152c6bf6f175ed6eedc9a28 Assembly-CSharp.dll:.RoteteCharacter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -129,7 +130,7 @@ cb3fe17e922dfa067ad7341ad23f9260 Assembly-CSharp.dll:.IK_Controller
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 a8b6c919b2049fcc280823488144371f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 235236d36b84ae8a2f834fc75bceae2e Assembly-CSharp.dll:.Skeleton_Controller
-f0c05ec93210a3d62af91dc34b20c792 Assembly-CSharp.dll:.Stats
+4986fd62422331341927b01b88610499 Assembly-CSharp.dll:.Stats
 4bd1cc3c85989d2213a9a8fd9d09e63f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fdd7177da17032ba94d98037cc97bb49 Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -139,9 +140,8 @@ c88c4199b288356ec3eb2f0d85abc619 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 a522a830de5d6b1a5efdac4529e7698c Assembly-CSharp.dll:.Arsenal_Controller
-1028c39545bcfa841aaab54121e69a47 Assembly-CSharp.dll:.UI
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
-a68bf49f7512fb4c99d016734692d28c Assembly-CSharp.dll:.SpawnSkeletons
+a059c6880485537072541cfc0fb20fd9 Assembly-CSharp.dll:.SpawnSkeletons
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AnimContr
 8216ca00094987954bcf22fd5ccf9bfd Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.FreeLookCam
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -186,5 +186,5 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-dde2b2fc03637d4b331a08a47cc98ec2 Assembly-CSharp.dll:.Skeleton_Stats
+355a3cdcfd95713a09450362617882f0 Assembly-CSharp.dll:.Skeleton_Stats
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh

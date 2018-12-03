@@ -13,6 +13,8 @@ public class SpawnSkeletons : MonoBehaviour
     [Space]
     public int minSpawnpoints = 2;
     public int maxSpawnpoints = 6;
+    public float enemySpawnTime = 10f;
+    public float timeReductionSpawn = 0.5f;
     void Start()
     {
         int iCount = 0;
@@ -22,13 +24,13 @@ public class SpawnSkeletons : MonoBehaviour
             iCount++;
         }
         SelectPoint();
+        StartCoroutine(SpawnEnemy(enemySpawnTime));
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.J))
             SelectPoint();
-        if (Input.GetKeyDown(KeyCode.K))
-            SpawnEnemys();
+
     }
     void SelectPoint()
     {
@@ -58,15 +60,22 @@ public class SpawnSkeletons : MonoBehaviour
         }
 
     }
-    void SpawnEnemys()
+    IEnumerator SpawnEnemy(float t)
     {
-        for (int i = 0; i < selectPoints.Length; i++)
+        foreach (Transform point in spawnPoint)
+        {            
+                Instantiate(skeleton, point.position + new Vector3(Random.Range(-1.5f, 1.5f), Random.Range(-1.5f, 1.5f), 0),Quaternion.identity);
+            
+        }
+        SelectPoint();
+        enemySpawnTime -= timeReductionSpawn;
+        
+        yield return new WaitForSeconds(t);
+        Debug.Log("Good\n" + enemySpawnTime);
+        if (enemySpawnTime > timeReductionSpawn)
         {
-            for (int j = 0; j < Random.Range(minSkeletonSpawn, maxSkeletonSpawn); j++)
-            {
-                int rot = Random.Range(0, 360);
-                Instantiate(skeleton, selectPoints[i].position + new Vector3(Random.Range(-1.5f, 1.5f), Random.Range(-1.5f, 1.5f), 0), new Quaternion(0, rot, 0, 0));
-            }
+            StartCoroutine(SpawnEnemy(enemySpawnTime));
+            Debug.Log("111");
         }
     }
 }

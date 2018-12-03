@@ -11,7 +11,6 @@ public class Stats : MonoBehaviour
     private bool sword_trigger;
     private float weak_attack_count;
     private float large_attack;
-    private GameObject skeletton_controller;
     private GameObject MovementController;
     private MovementController moveCon;
 
@@ -49,7 +48,6 @@ public class Stats : MonoBehaviour
     }
     void Start()
     {
-        skeletton_controller = GameObject.FindGameObjectWithTag("Red_Enemy");
         MovementController = GameObject.Find("test_2");
         moveCon = GetComponent<MovementController>();
     }

@@ -26,6 +26,14 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKey(attack_weak))
+        {
+            movementController.Attack(true);
+        }
+        if (Input.GetKey(attack_large))
+        {
+            movementController.Attack(false);
+        }
         if (Input.GetKeyDown(jump))
             movementController.Jump();
         Vector2 input = Vector2.zero;
@@ -39,12 +47,6 @@ public class PlayerInput : MonoBehaviour
             input.x = -1;
         else if (Input.GetKey(moveRight))
             input.x = 1;
-
-        if (Input.GetKey(attack_weak))
-            movementController.Attack(true);
-        if (Input.GetKey(attack_large))
-            movementController.Attack(false);
-
         movementController.Move(input, Input.GetKey(acceleration));
     }
 }

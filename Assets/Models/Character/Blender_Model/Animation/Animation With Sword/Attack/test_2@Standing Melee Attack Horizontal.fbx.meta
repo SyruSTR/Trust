@@ -95,7 +95,7 @@ ModelImporter:
       name: Standing Melee Attack Horizontal
       takeName: mixamo.com
       firstFrame: 0
-      lastFrame: 144
+      lastFrame: 121
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -146,7 +146,7 @@ ModelImporter:
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
-            time: 0.42145592
+            time: 0.5436178
             value: 1
             inSlope: 0
             outSlope: 0
@@ -155,7 +155,7 @@ ModelImporter:
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
-            time: 0.440613
+            time: 0.5519231
             value: 0
             inSlope: 0
             outSlope: 0

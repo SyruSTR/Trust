@@ -13,7 +13,9 @@ public class MovementController : MonoBehaviour
     public GameObject skeleton;
     private float targetSpeed = 0;
     private bool death;
-    public Transform spawnpoint;
+    public int weak_Damage=30;
+    public int large_Damage = 80;
+    //public Transform spawnpoint;
 
     [Space]
     public float smoothTime = 0.1f;
@@ -35,7 +37,7 @@ public class MovementController : MonoBehaviour
     //Cash
     private CharacterController characterController;
     private Animator animator;
-    public new Transform camera;
+    public  Transform camera;
     private GameObject stats;
     private Stats stats_script;
 
@@ -69,10 +71,6 @@ public class MovementController : MonoBehaviour
             stats_script.Large_attack = 0;
             stats_script.Weak_Attack_NOT_COUNT = false;
             stats_script.Large_Attack_NOT_COUNT = false;
-        }
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            Instantiate(skeleton, spawnpoint.position, new Quaternion(0,0,0,0));
         }
         if (Input.GetKeyDown(KeyCode.Y))
         {
@@ -137,6 +135,10 @@ public class MovementController : MonoBehaviour
             animator.SetTrigger("Jump");
         }
     }
+    public int Damage
+    {
+        get;set;
+    }
     public void Attack(bool strange)
     {
         if (characterController.isGrounded && !death)
@@ -144,10 +146,13 @@ public class MovementController : MonoBehaviour
             if (strange && !stats_script.Weak_Attack_NOT_COUNT)
             {
                 stats_script.Weak_attack_count++;
+                Damage = weak_Damage;
             }
             else if (!strange && !stats_script.Weak_Attack_NOT_COUNT)
             {
                 stats_script.Large_attack++;
+                Damage = large_Damage;
+                Debug.Log(Damage);
             }
         }
     }

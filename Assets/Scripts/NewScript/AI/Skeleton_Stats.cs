@@ -8,19 +8,19 @@ public class Skeleton_Stats : MonoBehaviour
     protected Skeleton_Stats() { }
     public Slider slider;
     public Text text_HP;
-    public int damage = 10;
-    private int HP = 100;
+    public int damage;
+    public int HP = 100;
     private bool attack_Trigger;
     private bool sword_Trigger;
     private GameObject movement_controller;
-    private GameObject skeleton_Controller;
+    private Stats stats;
 
     void Start()
     {
         movement_controller = GameObject.Find("test_2");
-        skeleton_Controller = GameObject.FindGameObjectWithTag("Red_Enemy");
         slider.maxValue = HP;
         slider.value = HP;
+        stats = GetComponent<Stats>();
     }
     void Update()
     {
@@ -35,8 +35,8 @@ public class Skeleton_Stats : MonoBehaviour
         //Debug.Log(sword_Trigger + " sword");
         float curve = movement_controller.GetComponent<MovementController>().curve_a;
         if (!attack_Trigger && sword_Trigger && curve > 0)
-        {
-            SetDamage(damage);
+        {            
+            SetDamage(movement_controller.GetComponent<MovementController>().Damage);
             attack_Trigger = true;
         }
         //if (!sword_Trigger) attack_Trigger = false;
@@ -45,7 +45,7 @@ public class Skeleton_Stats : MonoBehaviour
         {
             GameObject skeleton_1 = this.gameObject;
             //foreach(GameObject skeleton in movement_controller.GetComponent<Stats>().FindSkeletons())
-            skeleton_1.GetComponent<Skeleton_Controller>().anim_con.SetBool("Death", true);
+            skeleton_1.GetComponent<Skeleton_Controller>().anim_con.SetBool("Death",true);
         }
     }
 

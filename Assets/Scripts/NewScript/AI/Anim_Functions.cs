@@ -47,12 +47,10 @@ public class Anim_Functions : MonoBehaviour
     }
     public void Skeleton_Death()
     {
-        //foreach (GameObject skeleton in stats_script.FindSkeletons())
             Destroy(this.gameObject);
     }
     public void Player_Death()
     {
-        //Destroy(GameObject.Find("test_2"));
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
     private GameObject FindPlayer()
