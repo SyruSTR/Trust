@@ -65,6 +65,10 @@ public class MovementController : MonoBehaviour
         animator.SetFloat("Attack_WeakF", stats_script.Weak_attack_count);
         animator.SetFloat("Attack_LargeF", stats_script.Large_attack);
         animator.SetBool("isGround", characterController.isGrounded);
+        if (!animator.GetBool("IsSword") && Input.GetKey(KeyCode.Mouse1))
+            animator.SetBool("Aiming",true);
+        else
+            animator.SetBool("Aiming", false);
         if (!characterController.isGrounded)
         {
             stats_script.Weak_attack_count = 0;
@@ -141,7 +145,7 @@ public class MovementController : MonoBehaviour
     }
     public void Attack(bool strange)
     {
-        if (characterController.isGrounded && !death)
+        if (characterController.isGrounded && !death && animator.GetBool("IsSword"))
         {
             if (strange && !stats_script.Weak_Attack_NOT_COUNT)
             {

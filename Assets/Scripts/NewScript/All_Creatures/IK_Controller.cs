@@ -82,6 +82,10 @@ public class IK_Controller : MonoBehaviour
             animator.SetLookAtWeight(lookIKWeight,bodyWeight,headWeight,0,clampWeight);
             animator.SetLookAtPosition(target.position + new Vector3(0,0.6f,0));
         }
+        if (target.name == "ShootTarget")
+        {
+
+        }
         float leftWeight = animator.GetFloat("leftFoot");
         float rightWeight = animator.GetFloat("rightFoot");
 
@@ -96,6 +100,7 @@ public class IK_Controller : MonoBehaviour
 
         animator.SetIKPosition(AvatarIKGoal.RightFoot, rightFootTargetPos);
         animator.SetIKRotation(AvatarIKGoal.RightFoot, rightFootTargetRot);
+        //if (target.name == "ShootTarget") ;
     }
     //public void WaitCall()
     //{

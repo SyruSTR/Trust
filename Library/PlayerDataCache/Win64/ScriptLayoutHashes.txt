@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-C:/Users/dargo/Desktop/_Барахолка DEV/Trust/Trusted.exe
+C:/Users/syrus/Desktop/GG/Trusted/Trusted.exe
 SceneListBegin?
 Assets/scenes/Menu.unity
 Assets/scenes/main.unity
