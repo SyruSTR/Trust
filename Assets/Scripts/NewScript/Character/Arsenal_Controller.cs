@@ -64,7 +64,7 @@ public class Arsenal_Controller : MonoBehaviour
         [Header("RightWeapon Transform")]
         public Vector3 positionR;
         public Vector3 rotationR;
-        [Header("RightWeapon Transform")]
+        [Header("LeftWeapon Transform")]
         public Vector3 positionL;
         public Vector3 rotationL;
     }

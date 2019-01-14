@@ -15,6 +15,7 @@ public class MovementController : MonoBehaviour
     private bool death;
     public int weak_Damage=30;
     public int large_Damage = 80;
+    public bool Aiming = false;
     //public Transform spawnpoint;
 
     [Space]
@@ -66,9 +67,10 @@ public class MovementController : MonoBehaviour
         animator.SetFloat("Attack_LargeF", stats_script.Large_attack);
         animator.SetBool("isGround", characterController.isGrounded);
         if (!animator.GetBool("IsSword") && Input.GetKey(KeyCode.Mouse1))
-            animator.SetBool("Aiming",true);
+            Aiming = true;
         else
-            animator.SetBool("Aiming", false);
+            Aiming = false;
+        animator.SetBool("Aiming", Aiming);
         if (!characterController.isGrounded)
         {
             stats_script.Weak_attack_count = 0;

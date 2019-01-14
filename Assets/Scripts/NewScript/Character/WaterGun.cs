@@ -13,7 +13,7 @@ public class WaterGun : MonoBehaviour
     void Start()
     {
         //transform_spawn = gameObject.transform;
-        transform_spawn = GameObject.Find("Target").transform;
+        transform_spawn = GameObject.Find("TargetShoot").transform;
         animator = GameObject.Find("test_2").GetComponent<MovementController>().animator_p;
         //movementController = GameObject.Find("test_2").GetComponent<MovementController>();
     }
